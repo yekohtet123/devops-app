@@ -20,5 +20,5 @@ jobs:
 
     - name: Push Image
       run: |
-        docker tag myapp:latest yourdockerhub/myapp:latest
-        docker push yourdockerhub/myapp:latest
+        docker tag myapp:latest marioyenerdtronics/myapp:latest
+        docker push marioyenerdtronics/myapp:latest
